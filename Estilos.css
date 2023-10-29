@@ -1,6 +1,5 @@
 * {
     box-sizing: border-box;
-    text-decoration: none;
     list-style: none;
 }
 
@@ -35,6 +34,7 @@ body{
 }
 
 .logo{
+    text-decoration: none;
     margin-left: -70px;
     font-size: 24px;
     color: #f2bc94;
@@ -49,6 +49,7 @@ body{
 }
 
 .menu .navbar ul li a{
+    text-decoration: none;
     font-size: 18px;
     padding: 20px;
     columns: #FFFFFF;
@@ -139,13 +140,13 @@ main{
 }
 
 .titulo2{
-    text-shadow: 4px 4px 5px white;
+    text-shadow: 4px 4px 5px rgb(185, 102, 102);
     color: #30110D;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .titulo3{
-    text-shadow: 4px 4px 5px white;
+    text-shadow: 4px 4px 5px rgb(185, 102, 102);
     margin-left: 8%;
     margin-right: 8%;
     font-size: x-large;
@@ -179,7 +180,7 @@ main{
 
 
 .titulo4{
-    text-shadow: 4px 4px 5px white;
+    text-shadow: 4px 4px 5px rgb(185, 102, 102);
     color: #30110D;
     font-family: Arial, Helvetica, sans-serif;
 
@@ -338,4 +339,71 @@ samp{
 
 .imgvar{
     width: 90%;
+}
+
+.contsmall{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.divimgsamll{
+    width: 90%;
+    margin-left: 4%;
+    margin-top: 20%;
+
+}
+
+.imgsoju{
+    width: 80%;
+}
+
+.contdiv{
+    margin-left: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.bk{
+    width: 90%;
+}
+
+.imgdiv{
+    width: 30%;
+    margin-left: 35%;
+}
+
+.imgfooter{
+    margin-left: 20%;
+}
+
+.divu{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.imgu{
+    margin-top: 7px;
+    margin-left: 7%;
+    width: 95%;
+}
+
+.divtabla{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.tabla1{
+    margin-top: 7%;
+    margin-left: 10%;
+    width: 40%;
+    height: 40%;
+}
+
+.imgtabla1{
+ width: 62%;
+ margin-left: 15%
+}
+
+table, th, td{
+    border: 3px solid #30110D;
 }
