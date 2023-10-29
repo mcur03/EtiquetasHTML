@@ -310,3 +310,32 @@ samp{
 .img4{
     width: 84%;
 }
+
+.divaside{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: #722620;
+}
+
+.div4{
+    width: 90%;
+    margin-left: 10%;
+}
+
+.img6{
+    margin-top: 10px;
+    width: 98%;
+}
+
+.contvar{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.divvar{
+    width: 80%;
+}
+
+.imgvar{
+    width: 90%;
+}
