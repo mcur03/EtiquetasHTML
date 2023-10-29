@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Etiquetas</title>
+    <link rel="stylesheet" href="Estilos.css">
+    <script src='main.js'></script>
+</head>
+
+<body>
+    <header>
+        <div class="back">
+            <div class="menu container">
+                <a href="#" class="logo">ETIQUETAS HTML</a>
+                <input type="checkbox" id="menu" />
+                <label for="menu">
+                    <img src="images/menu.png" class="menu-icono" alt="">
+                </label>
+                <nav class="navbar">
+                    <ul>
+                        <li><a href="#">Blockquote</a></li>
+                        <li><a href="#">Main</a></li>
+                        <li><a href="#">Section</a></li>
+                        <li><a href="#">Article</a></li>
+                        <li><a href="#">More+</a></li>
+                    </ul>
+                </nav>
+
+            </div>
+        </div>
+    </header>
+    <br>
+    <div class="etiqueta1">
+        <h1 class="titulo2">
+            <center>ETIQUETA BLOCKQUOTE</center>
+        </h1>
+        <p class="p1">
+            La etiqueta <b>blockquote</b> se utiliza para crear un bloque o sección donde aparezca
+            un texto que es una cita o referencia a una obra o fuente de información.
+            <br><b>Ejemplo: </b>utilizando -blockquote- como una etiqueta de agrupación.
+        </p>
+        <blockquote>
+            <p>El único conocimiento verdadero es saber que no sabes nada.</p>
+            <p class="author">Sócrates</p>
+        </blockquote>
+    </div>
+    <br>
+    <main>
+        <h1 class="titulo2">
+            <center>ETIQUETAS MAIN, SECTION Y ARTICLE</center>
+        </h1>
+        <p class="p1">A continuación, explicare para que sirven las etiquetas main, section y article.</p>
+        <section>
+            <article>
+                <h1 class="titulo3">MAIN</h1>
+                <p class="p1">El elemento main es un contenedor para los temas centrales de un documento o sección. Este
+                    contenido central puede interpretarse como todo lo que resta luego de quitar anuncios, encabezados
+                    (header), pies (footer), secciones de navegación (nav), vínculos relacionados y otros elementos
+                    secundarios.</p>
+                <p class="p1">El elemento main tiene mayor importancia para personas con discapacidades, que
+                    habitualmente acceden a la web a través de programas especiales como los navegadores de voz. En
+                    tales casos, los navegadores pueden ser instruidos para ir directamente al contenido principal del
+                    documento o sección (main), saltándose toda la información menos relevante.</p>
+            </article>
+        </section>
+        <section>
+            <article>
+                <h1 class="titulo3">SECTION</h1>
+                <p class="p1">
+                    La etiqueta sección define las secciones de un documento, como capítulos, encabezados, pies de
+                    página o cualquier otra sección del documento.<br>
+                    "Una sección es un agrupamiento temático de contenido, normalmente con un encabezado".
+                </p>
+            </article>
+        </section>
+        <section>
+            <article>
+                <h1 class="titulo3">ARTICLE</h1>
+                <p class="p1">El elemento -article- es un contenedor de bloques de contenido que se consideran
+                    independientes del sitio web y pueden, por lo tanto, ser vistos, reutilizados y distribuidos por
+                    separado, como por ejemplo, en las indicación. Puedes encontrar habitualmente a este elemento
+                    encerrando artículos, entradas de blogs o mensajes de un foro.</p>
+            </article>
+        </section>
+    </main>
+
+    <h1 class="titulo2">
+        <center>ETIQUETAS CODE, PRE</center>
+    </h1>
+
+    <div class="contenedor">
+        <div class="div1">
+            <h1 class="titulo4">
+                <center>CODE</center>
+            </h1>
+            <P class="p2">
+                La etiqueta -code- se utiliza cuando se quiere definir un fragmento o ejemplo
+                de código en línea, sin saltos de línea, escrito en cualquier tipo de lenguaje
+                de programación. Por defecto, -code- se visualiza con un tipo de letra
+                monoespaciado.<br><br><b>Ejemplo:</b>
+                <br><br>
+                <img src="img/code.PNG" alt="code">
+                <br><br>
+            <div class="divpre">
+                <code>
+                Pasos para sumar dos numero: 
+                   1.num1 
+                   2.num2 
+                   3.sum = num1 + num2
+             </code>
+            </div>
+            </P>
+        </div>
+        <div class="div1">
+            <h1 class="titulo4">
+                <center>PRE</center>
+            </h1>
+            <P class="p2">
+                La etiqueta -pre- se utiliza cuando queremos definir un texto preformateado en
+                el que se respetan los espacios en blancos, loa tabuladores y los saltos de línea
+                (HTML por defecto no es capaz de hacerlo)<br><br><b>Ejemplo:</b>
+                <br><br>
+                <img src="img/pre.PNG" alt="code">
+                <br><br>
+
+            <pre>
+                 Pasos para sumar dos numero: 
+                    1. num1 
+                    2. num2 
+                    3. sum = num1 + num2
+              </pre>
+            </P>
+        </div>
+    </div>
+    <br>
+    <div class="contenedorkbd">
+        <h1 class="titulo4">
+            <center>ETIQUETA KBD</center>
+        </h1>
+        <p class="p2">Se utiliza cuando queremos definir un texto que se debe introducir en el ordenador
+            y un comando o un atajo de teclado. Por defecto KBD se visualiza con un tipo de
+            letra monoespaciado.</p>
+        <div class="contkbd">
+            <div class="div2">
+                <p class="p2"><strong>Ejemplo sin hoja de estilos</strong></p>
+                <br>
+                <img class="img1" src="img/kbd1.PNG" alt="kbd1">
+                <br><br><br>
+                <p class="p3">Para pasar a la siguiente pagina puede pulsar <kbd>Ctrl+avpág</kbd></p>
+            </div>
+            <div class="div2">
+                <p class="p2"><strong>Ejemplo con hoja de estilos</strong></p>
+                <img class="img1" src="img/kbd2.PNG" alt="kbd2">
+                <p class="p2">Para pasar a la siguiente pagina puede pulsar <kbd class="kbd1">Ctrl+avpág</kbd></p>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="div1">
+        <h1 class="titulo4">
+            <center> SAMP</center>
+        </h1>
+        <P class="p2">La etiqueta -samp- se utiliza cuando queremos definir un contenido que es la salida
+            de un programa o de un fragmento de código. Como un mensaje de error.
+            <br><strong>Ejemplo:</strong>
+        </P>
+        <div class="contsamp">
+            <img src="img/samp.PNG" alt="samp">
+            <samp>
+                <br>
+                ERROR 404!!!. Página no encontrada
+            </samp>
+        </div>
+    </div>
+    <br>
+    <div class="div1">
+        <h1 class="titulo4">
+            <center>VAR</center>
+        </h1>
+        <P class="p2">
+            Se utiliza cuando queremos definir una variable que forma parte de una fórmula
+            matemática o de un código. Por defecto -var- se visualizará en cursiva.
+            <br><strong>Ejemplo:</strong>
+        </P>
+        <p class="p3">
+            Sí <var>Y</var> vale 56, ¿cuánto vale <var>Y</var> si lo divido en 7?
+        </p>
+    </div>
+    <br>
+    <div class="div3">
+        <h1 class="titulo4">
+            <center>ETIQUETA HEADER</center>
+        </h1>
+        <p class="p1">El elemento <strong>header</strong> en HTML se utiliza para representar la sección introductoria o
+            encabezado de un documento o de una sección de contenido. Por lo general, se coloca
+            en la parte superior de la página web y puede contener elementos como el logotipo,
+            el título de la página, la navegación principal, o cualquier otro contenido
+            introductorio que desees mostrar. El uso de <strong>header</strong> ayuda a estructurar y dar
+            sentido a la información en una página web, facilitando la navegación y la comprensión del
+            contenido.
+            <br><br><strong>Ejemplo:</strong><br>
+        </p>
+        <div class="divheader">
+            <img class="img2" src="img/header.PNG" alt="">
+            <img class="img3" src="img/header2.PNG" alt="">
+            <br>
+        </div>
+    </div>
+    <br>
+    <div class="div3">
+        <h1 class="titulo4">
+            <center>ETIQUETAS FIGURE-FIGCAPTION</center>
+        </h1>
+        <p class="p3">
+            El elemento <strong>figure</strong> representa a una pieza de documento autocontenido que se utiliza
+            habitualmente para encerrar imágenes, gráficos, tablas de referencia, videos, poemas,
+            fragmentos de código, etc. Podrían ser acompañada por una leyenda o título
+            <strong>(figcaption)</strong> que puede usarse para hacer una referencia al fragmento desde alguna
+            otra parte del documento. Además del título opcional, un elemento figure puede contener a
+            otros elementos como imágenes (img), párrafos (p), código de computadora (code), citas
+            (cite), etc. <br><br><strong>Ejemplo</strong><br>
+        </p>
+        <h2 class="titulo4" style="margin-left: 15%;">
+            Análisis basados en databooks
+        </h2>
+        <div class="divfigure">
+            <div>
+                <img class="img5" src="img/figure.PNG" alt="">
+            </div>
+            <div class="divfigure2">
+                <p class="p3">
+                    Escala basada en los databooks de los personajes (Ver Grafico A), desde naruto hasta
+                    the last,solo Sakura cuenta con estadísticas en boruto de entre las kunoichis y algunos
+                    datos son difíciles de encontrar.
+                </p>
+                <figure>
+                    <img class="img4" src="img/naruto.jpg" alt="">
+                    <figcaption>Grafico A: Naruto</figcaption>
+                </figure>
+            </div>
+        </div>
+    </div>
+    <br>
+
+
+</body>
+
+</html>
